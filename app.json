@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Romantic Surprise",
+    "slug": "romantic-surprise-expo-web",
+    "scheme": "romantic-surprise",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": ["expo-router"],
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=128&h=128&fit=crop"
+    },
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}

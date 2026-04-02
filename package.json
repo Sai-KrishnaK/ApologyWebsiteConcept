@@ -1,0 +1,31 @@
+{
+  "name": "romantic-surprise-expo-web",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "web": "expo start --web",
+    "build:web": "expo export --platform web",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "@types/react": "~19.2.10",
+    "expo": "latest",
+    "expo-asset": "latest",
+    "expo-av": "latest",
+    "expo-location": "latest",
+    "expo-router": "latest",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.4",
+    "react-native-reanimated": "4.2.1",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-web": "latest",
+    "react-native-worklets": "0.7.4",
+    "tslib": "2.6.3",
+    "typescript": "~5.9.2"
+  }
+}
